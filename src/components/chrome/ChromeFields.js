@@ -6,7 +6,7 @@ import * as color from '../../helpers/color'
 import isUndefined from 'lodash/isUndefined'
 
 import { EditableInput } from '../common'
-import UnfoldMoreHorizontalIcon from '@icons/material/UnfoldMoreHorizontalIcon'
+// import UnfoldMoreHorizontalIcon from '@icons/material/UnfoldMoreHorizontalIcon'
 
 export class ChromeFields extends React.Component {
   constructor(props) {
@@ -265,12 +265,12 @@ export class ChromeFields extends React.Component {
         { fields }
         <div style={ styles.toggle }>
           <div style={ styles.icon } onClick={ this.toggleViews } ref={ (icon) => this.icon = icon }>
-            <UnfoldMoreHorizontalIcon
+            {/* <UnfoldMoreHorizontalIcon
               style={ styles.svg }
               onMouseOver={ this.showHighlight }
               onMouseEnter={ this.showHighlight }
               onMouseOut={ this.hideHighlight }
-            />
+            /> */}
           </div>
         </div>
       </div>

@@ -3,7 +3,7 @@ import reactCSS from 'reactcss'
 import * as colorUtils from '../../helpers/color'
 
 import { Swatch } from '../common'
-import CheckIcon from '@icons/material/CheckIcon'
+// import CheckIcon from '@icons/material/CheckIcon'
 
 export const SwatchesColor = ({ color, onClick = () => {}, onSwatchHover, first,
   last, active }) => {
@@ -69,7 +69,7 @@ export const SwatchesColor = ({ color, onClick = () => {}, onSwatchHover, first,
       focusStyle={{ boxShadow: `0 0 4px ${ color }` }}
     >
       <div style={ styles.check }>
-        <CheckIcon />
+        {/* <CheckIcon /> */}
       </div>
     </Swatch>
   )
